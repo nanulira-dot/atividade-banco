@@ -55,7 +55,7 @@ for row in cursor.execute("SELECT titulo, ano FROM Livros ORDER BY ano DESC"):
     print(row)
 print()
 
-# 7 deletar livro antigo (antes de 1940
+# 7 deletar livro antigo (antes de 1940)
 cursor.execute("DELETE FROM Livros WHERE ano < 1940")
 conn.commit()
 print("🗑️  Livros antigos (antes de 1940) removidos!\n")
