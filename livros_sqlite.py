@@ -37,7 +37,7 @@ INSERT OR IGNORE INTO Livros (titulo, autor, ano, genero, disponivel)
 VALUES (?, ?, ?, ?, ?)
 """, livros)
 conn.commit()
-print("📚 Livros inseridos com sucesso!\n")
+print("📚  Livros inseridos com sucesso!\n")
 
 # 4 consultar todos os livros
 print("📖 Livros disponíveis:")
