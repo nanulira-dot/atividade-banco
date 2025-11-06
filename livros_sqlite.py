@@ -88,7 +88,7 @@ print("👥 Usuários inseridos com sucesso!\n")
 # 11 apagar tabela Usuario
 cursor.execute("DROP TABLE Usuario")
 conn.commit()
-print("❌ Tabela 'Usuario' apagada com sucesso!\n")
+print("❌  Tabela 'Usuario' apagada com sucesso!\n")
 
 # Fechar conexão
 conn.close()
