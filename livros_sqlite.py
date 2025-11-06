@@ -50,7 +50,7 @@ conn.commit()
 print("🔄 Atualização concluída: 'Harry Potter' agora está indisponível.")
 
 # 6 ordenar livros do mais novo pro mais antigo
-print("📅 Livros do mais recente ao mais antigo:")
+print("📅 Livros do mais recente ao mais antigo: ")
 for row in cursor.execute("SELECT titulo, ano FROM Livros ORDER BY ano DESC"):
     print(row)
 print()
