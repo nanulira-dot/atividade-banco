@@ -69,7 +69,7 @@ CREATE TABLE IF NOT EXISTS Usuario (
 """)
 print("👤 Tabela 'Usuario' criada!\n")
 
-# 9 alterar tabela Usuario para adicionar coluna idade
+# 9 alterar tabela 'Usuario' para adicionar coluna idade
 cursor.execute("ALTER TABLE Usuario ADD COLUMN idade INTEGER")
 print("Campo 'idade' adicionado à tabela Usuario!\n")
 
