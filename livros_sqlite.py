@@ -1,6 +1,6 @@
-# ========================================
+# =========================================
 # Aula prática: Banco de Dados com SQLite
-# ========================================
+# =========================================
 
 import sqlite3
 
@@ -28,7 +28,7 @@ livros = [
     ("Dom Casmurro", "Machado de Assis", 1899, "Romance", 1),
     ("1984", "George Orwell", 1949, "Distopia", 0),
     ("Harry Potter", "J.K. Rowling", 1997, "Fantasia", 1),
-    ("É assim que acaba", "Collen Hoover", 2022, "Romance", 1)
+    ("É assim que começa", "Collen Hoover", 2022, "Romance", 1)
 ]
 
 # 3 inserir múltiplos livros
