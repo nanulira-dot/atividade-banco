@@ -37,10 +37,10 @@ INSERT OR IGNORE INTO Livros (titulo, autor, ano, genero, disponivel)
 VALUES (?, ?, ?, ?, ?)
 """, livros)
 conn.commit()
-print("📚  Livros inseridos com sucesso!\n")
+print("📚 Livros inseridos com sucesso!\n")
 
 # 4 consultar todos os livros
-print("📖 Livros disponíveis:")
+print("📖 Livros disponíveis: ")
 for row in cursor.execute("SELECT * FROM Livros WHERE disponivel = 1"):
     print(row)
 print()
