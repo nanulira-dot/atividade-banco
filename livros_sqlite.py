@@ -60,7 +60,7 @@ cursor.execute("DELETE FROM Livros WHERE ano < 1940")
 conn.commit()
 print("🗑️  Livros antigos (antes de 1940) removidos!\n")
 
-# 8 criar tabela Usuario
+# 8 criar tabela 'Usuario'
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS Usuario (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
